@@ -1,0 +1,124 @@
+body, html{
+    height: 100%;
+    margin:0;
+    margin-top: 0px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.hero-image{
+    background-image:url(..//images/theater-image-background.png);
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.hero-text{
+    color: white;
+    font-size:xxx-large;
+    font-weight: 100;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+ 
+nav{
+    background-color: black;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    font-weight: 900;
+    text-align:center;
+    text-decoration-line: none;    
+    
+}
+
+nav a{
+    color:white;
+    background: black;
+    text-decoration: none;
+    padding-top: 25px;
+  }
+
+.read{
+    border: 10px solid rgb(223, 182, 79);
+    padding: 5px;
+    background-color: rgb(223, 182, 79);
+    color: white;
+    font-size: 25px;
+}
+
+.april{
+    text-indent: 5%;
+    border: 1px solid black;
+    background-color: rgb(235, 234, 234);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding-left: 5px;
+    align-items: center;
+    background-color: black;
+    color:white;
+    line-height: 3.5;
+    margin-top: 25px;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+.map{
+    height:400px;
+    width:500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.big{
+    font-size: 80px;
+    
+}
+
+.photo{
+    margin:25px;
+}
+
+
+
+
+
+
+
+
+
